@@ -1,0 +1,5 @@
+conda create -n getting_started_llmops python=3.11
+conda activate getting_started_llmops
+conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python snowflake-ml-python snowflake.core notebook ipykernel
+
+pip install trulens-core trulens-providers-cortex trulens-connectors-snowflake llama-index llama-index-embeddings-huggingface llama-index-readers-github snowflake-sqlalchemy
